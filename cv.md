@@ -1,20 +1,30 @@
-#Nikita Potipko#
+**Nikita Potipko**
 ============
-##Junior Frontend Developer##
+Junior Frontend Developer
 ============
 Contact information:
+
+
 Phone: +375257884564
+
+
 E-mail: potipkonikita@gmail.com 
 ============
+Briefly About Myself:
 
-Johnny Coder
+
+Having started my career as a junior researcher in "Institute of radiology". Five years ago I’ve become software engineer in Gomel Railway Car Building Works. 
 ============
+Skills and Proficiency:
 
--------------------     ----------------------------
-1 MyAddress                        email@example.com
-MyTown 1000                          @twitter_handle
-MyCountry                           1800 my-phone-nr
--------------------     ----------------------------
 
-Education
-1111
+*HTML5, CSS3
+*JavaScript Basics
+*Git, GitHub
+*VS Code, Sublime text 3
+*Adobe Photoshop
+============
+Languages:
+
+
+*English - Intermediate
