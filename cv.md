@@ -12,6 +12,8 @@ E-mail: potipkonikita@gmail.com
 
 
 ============
+
+
 Briefly About Myself:
 
 
@@ -19,6 +21,8 @@ Having started my career as a junior researcher in "Institute of radiology". Fiv
 
 
 ============
+
+
 Skills and Proficiency:
 
 1. HTML5, CSS3
@@ -28,7 +32,9 @@ Skills and Proficiency:
 5. Adobe Photoshop
 
 ============
+
+
 Languages:
 
 
-*English - Intermediate
+1. English - Intermediate
