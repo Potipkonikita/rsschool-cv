@@ -180,16 +180,11 @@ body{
     margin-bottom: 5px;
 }
  .about ul li{
-    margin-left: 20px;
-    margin-top: 20px; 
-
+    margin-left: 10px;
+    margin-top: 10px; 
 }
-
 p{
     color:#333;
-}
-.about li{
-    line-height:3px;
 }
 .about .box{
     display:flex;
