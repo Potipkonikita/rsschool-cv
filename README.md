@@ -1,1 +1,1 @@
-# rsschool-cv
+https://potipkonikita.github.io/rsschool-cv/
