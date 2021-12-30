@@ -4,9 +4,188 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV HTML+CSS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-    
+<body>  
+<!-- all page  -->
+<div class="page">
+    <!--header-->
+    <header class="header_top">
+          <nav>
+            <ul>
+              <li><a href="#contactInfo">Contact Info</a></li>
+              <li><a href="#Education">Education</a></li>
+              <li><a href="#Languages">Languages</a></li>
+              <li><a href="#Experience">Experience</a></li>
+              <li><a href="#skills">Scills</a></li>
+            </ul>
+          </nav>
+    </header>
+    <!-- Main -->
+    <main class="container">   
+        <!-- aside -->
+        <aside class="left_Side">
+            <div class="profileText">
+                <div class="imgBox">
+                    <img src="./assets/img/img.jpeg" alt="photo">
+                </div>
+                <h1>Nikita Potipko <br><span>Junior front-end developer</span></h1>
+            </div>
+            <!-- contact info -->
+            <div class="contactInfo" id="contactInfo">
+                <h3 class="title">Contact Info</h3>
+                <ul>
+                    <li>
+                        <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <span class="text">+375257884564</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></span>
+                        <span class="text">Potipkonikita@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
+                        <span class="text">github.com/Potipkonikita</span>
+                    </li>
+                    <li>
+                        <span class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                        <span class="text">Gomel, Belarus</span>
+                    </li>
+                </ul>
+            </div>
+            <!-- education info -->
+            <div class="contactInfo education" id="Education">
+                <h3 class="title" >Education</h3>
+                <ul>
+                    <li>
+                        <h5>2009-2014</h5>
+                        <h4>Physicist-engineer: Department of Theoretical Physics</h4>
+                        <h4>Francisk Skorina Gomel state university</h4>
+                    </li>
+                </ul>
+            </div>
+            <!-- Languages -->
+            <div class="contactInfo language" id="Languages">
+                <h3 class="title">Languages</h3>
+                <ul>
+                    <li>
+                        <span class="text">Russian: native language</span>
+                    </li>
+                    <li>
+                        <span class="text">English: B1</span>
+                    </li>
+                    <li>
+                        <div class="imgBox2"> 
+                            <img src="./assets/img/en_lvl.jpg" alt="en_lvl" width="300">
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+        <!-- Block info -->
+        <section class="right_Side">
+            <div class="about">
+               <h2 class="title2">Profile</h2> 
+               <p>My name is Nikita. I am 29 years old. I graduated from the Francisk Skorina Gomel state university in 2014.Department of Theoretical Physics, Faculty of Physics.
+                My specialty is an Physicist-engineer.</p> <p>I worked as a junior research assistant in the Institute of Radiology for 3 years. After that, I changed jobs and became a software engineer at the Gomel Carriage Works. 
+                Now I am the head of the software department at the same place.</p>
+                <p>My personal and professional qualities is:</p>
+                <ul>
+                    <li>Ability to easily find contact with people</li>
+                    <li>Ability to prioritize</li>
+                    <li>Initiative</li>
+                    <li>Teamwork</li>
+                    <li>Systems thinking</li>
+                    <li>Time management</li>
+                    <li>Self-education</li>
+                </ul>
+            </div>
+            <div class="about" id="Experience">
+                <h2 class="title2">Experience</h2>
+                <div class="box">
+                    <div class="year_company">
+                        <h5>2014-2017</h5>
+                        <h5>Institute of Radiology</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Junior research assistant</h4>
+                        <p>scientific activity</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="year_company">
+                        <h5>2017-Present</h5>
+                        <h5>Gomel Carriage Works</h5>
+                    </div>
+                    <div class="text">
+                        <h4>Head of the software department</h4>
+                        <p>software development</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Skills -->
+            <div class="about" id="skills">
+                <h2 class="title2">Professional skills</h2>
+                <div class="box">
+                    <div class="text">
+                        <ul>
+                            <li>Html</li>
+                            <li>CSS</li>
+                            <li>Photoshop</li>
+                            <li>JavaScript</li>
+                            <li>C++</li>
+                            <li>Delphi</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </div> 
+            <!-- Code examples -->
+            <div class="about">
+                <h2 class="title2">CODE EXAMPLES</h2>
+                <div class="box">
+                    <div class="code">
+                        <pre>
+                            <code>
+        function add(num1, num2) {
+                num1 = ('' + num1).split('').reverse()
+                num2 = ('' + num2).split('').reverse()
+                let max = Math.max(num1.length, num2.length)
+                let str = [];
+                for(let i = 0; i &lt; max; i++)
+                    str.push((parseInt(num1[i]) || 0) + (parseInt(num2[i]) || 0))
+                num1 = str.reverse().join('');
+                return parseInt(num1);}
+                            </code>
+                        </pre>
+                    </div>
+                </div>
+            </div> 
+            <!-- Educational projects -->
+            <div class="about">
+                <h2 class="title2">Educational projects</h2>
+                <div class="box">
+                    <div class="text">
+                        <a href="https://github.com/Potipkonikita/rsschool-cv/blob/gh-pages/cv.md">Rolling scopes school: CV#1. Markdown & Git</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer_bot">
+        <nav>
+          <ul>
+            <li><a href="#date" id="date">&#169; 2021</a></li>
+            <li><a href="https://rs.school/js/"><img src="./assets/img/RS.png" alt="RSSchool" width="100" ></a></li>
+            <li><a href="https://github.com/Potipkonikita"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+          </ul>
+        </nav>
+  </footer>
+</div>
 </body>
 </html>
